@@ -6,171 +6,29 @@
 </head>
 <body>
 	<div align="center" style="margin: 30px;">
-	<p>
-	商品ID
-<<<<<<< HEAD
-	</p>
-	<p>
-	<input type="text" style="padding: 10px; border: medium #afeeee double;">
-	</p>
-	<p>
-	商品名
-	</p>
-	<p>
-	<input type="text" style="padding: 10px; border: medium #afeeee double;">
-=======
-	<input type="text" />
->>>>>>> 666b984b90c6bad197dc47183ffddce809cf93fe
-	</p>
-	<form method="POST" action="/post">
-	<p>商品名<input type="text" name="name" /></p>
-	<button type="submit" style="padding: 10px 100px;">検索</button>
-	</form>
+		<form method="POST" action="/">
+			<p>商品ID</p>
+			<p><input type="text" name="id" style="padding: 10px; border: medium #afeeee double;" /></p>
+			<p>商品名</p>
+			<p><input type="text" name="name" style="padding: 10px; border: medium #afeeee double;" /></p>
+			<button type="submit" style="padding: 10px 100px;">検索</button>
+		</form>
 	</div>
 	    <p th:text="'Hello, ' + ${name} + '!'" />
 	<table border="1" align="center" >
 		<tr>
-		<th  bgcolor="#99FF99" >商品ID</th>
-		<th  bgcolor="#99FF99"  width="310" >商品名</th>
-		<th  bgcolor="#99FF99" width="100" >在庫数</th>
-		<th bgcolor="#99FF99" >詳細</th>
+			<th  bgcolor="#99FF99" >商品ID</th>
+			<th  bgcolor="#99FF99"  width="310" >商品名</th>
+			<th  bgcolor="#99FF99" width="100" >在庫数</th>
+			<th bgcolor="#99FF99" >詳細</th>
 		</tr>
 		<tr>
-		<td>AB123</td>
-		<td>ガンプラ</td>
-		<td style="text-align:right;">100</td>
-		<td>RX-78 ガンダム</td>
-		</tr>
-		<tr>
-		<td>CD456</td>
-		<td>ニッパー</td>
-		<td style="text-align:right;">50</td>
-		<td>プラモを切るための道具です。</td>
-		</tr>
-		<tr>
-		<td>EF789</td>
-		<td>ガンダムマーカー</td>
-		<td style="text-align:right;">200</td>
-		<td>作成したガンプラに色を塗るための道具。</td>
-		</tr>
-		<tr>
-		<td>GH101</td>
-		<td>デカール</td>
-		<td style="text-align:right;">300</td>
-		<td>ガンプラに個性を出すためのステッカーです。</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		<tr>
-		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		<td style="text-align:right;">9999</td>
-		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
-		</tr>
-		 <tr>
-		<td>GH101</td>
-		<td>ああああああああああいいいいいいいいいい</td>
-		<td style="text-align:right;">300</td>
-		<td>ああああああああああいいいいいいいいいいええええええええええおおおおおおおおおお</td>
+			<td th:text="${id}">12345</td>
+			<td th:text="${name}">ポテトチップス</td>
+			<td th:text="${stock}" style="text-align:right;">9999</td>
+			<td th:text="${detail}">詳細だよー</td>
 		</tr>
 	</table>
-<<<<<<< HEAD
-	<p style="text-align: center; color: #0000ff;"><< < 1 2 > >></p>
-=======
-	<div style="text-align: center;"> 1 2</div>
-
->>>>>>> 666b984b90c6bad197dc47183ffddce809cf93fe
-
-
-
-
+	<p style="text-align: center; color: #0000ff;">1 2</p>
 </body>
 </html>

@@ -1,7 +1,13 @@
 package ssa;
 
+/**
+ * 在庫数です。
+ * 
+ * @author Yuka Takata
+ */
 public class Stock {
 	private String id;
+	private String value;
 
 	public String getId() {
 		return id;
@@ -18,7 +24,4 @@ public class Stock {
 	public void setValue(String value) {
 		this.value = value;
 	}
-
-	private String value;
-
 }

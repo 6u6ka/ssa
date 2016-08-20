@@ -18,11 +18,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-<<<<<<< HEAD
-         <dependency>
-=======
         <dependency>
->>>>>>> 666b984b90c6bad197dc47183ffddce809cf93fe
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
