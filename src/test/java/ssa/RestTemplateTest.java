@@ -9,7 +9,7 @@ public class RestTemplateTest {
 
 	@Test
 	public void 製品とつながるテスト() throws Exception {
-		Product[] products = new RestTemplate().getForObject("http://54.173.107.241:8091/api/item", Product[].class);
+		Product[] products = new RestTemplate().getForObject("http://54.186.114.166:8091/api/item", Product[].class);
 		assertThat(products).isNotEmpty();
 	}
 }
